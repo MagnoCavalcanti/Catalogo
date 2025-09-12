@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+  <h1>Filmes Disponíveis</h1>
+  <ul>
+        {% for filme in filmes %}
+        <li>
+            <img src="{{ filme.imagem.url }}" alt="{{ filme.titulo }}">
+            <div class="card-content">
+                <h2 class="card-title">{{ filme.titulo }}</h2>
+                <p class="card-description">{{ filme.sinopse }}</p>
+                <div class="card-info">
+                    <span>{{ filme.ano }}</span>
+                    
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

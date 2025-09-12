@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titulo %}Catálogo{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'filmes/css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        {% block conteudo %}{% endblock %}
+    </div>
+</body>
+</html>

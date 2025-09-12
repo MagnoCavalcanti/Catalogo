@@ -1,0 +1,52 @@
+[
+  {
+    "model": "core.filme",
+    "pk": 1,
+    "fields": {
+      "titulo": "O Poderoso Chefão",
+      "descricao": "Uma saga épica sobre a família de mafiosos Corleone.",
+      "ano_lancamento": 1972,
+      "imagem": "filmes/o_poderoso_chefao.jpg"
+    }
+  },
+  {
+    "model": "core.filme",
+    "pk": 2,
+    "fields": {
+      "titulo": "O Cavaleiro das Trevas",
+      "descricao": "Batman enfrenta o Coringa em Gotham.",
+      "ano_lancamento": 2008,
+      "imagem": "filmes/o_cavaleiro_das_trevas.jpg"
+    }
+  },
+  {
+    "model": "core.filme",
+    "pk": 3,
+    "fields": {
+      "titulo": "A Origem",
+      "descricao": "Um ladrão que invade os sonhos de pessoas para roubar segredos corporativos.",
+      "ano_lancamento": 2010,
+      "imagem": "filmes/a_origem.jpg"
+    }
+  },
+  {
+    "model": "core.filme",
+    "pk": 4,
+    "fields": {
+      "titulo": "Pulp Fiction",
+      "descricao": "Várias histórias interligadas de criminosos em Los Angeles.",
+      "ano_lancamento": 1994,
+      "imagem": "filmes/pulp_fiction.jpg"
+    }
+  },
+  {
+    "model": "core.filme",
+    "pk": 5,
+    "fields": {
+      "titulo": "Interestelar",
+      "descricao": "Uma equipe de exploradores viaja através de um buraco de minhoca para salvar a humanidade.",
+      "ano_lancamento": 2014,
+      "imagem": "filmes/interestelar.jpg"
+    }
+  }
+]
